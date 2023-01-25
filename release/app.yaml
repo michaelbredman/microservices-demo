@@ -454,7 +454,7 @@ spec:
       containers:
       - name: server
         #image: gcr.io/google-samples/microservices-demo/cartservice:v0.3.8
-        image: docker.io/mredman/cartservice:latest
+        image: docker.io/mredman/chaosdemo:latest
         ports:
         - containerPort: 7070
         env:
