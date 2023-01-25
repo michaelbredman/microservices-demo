@@ -1,0 +1,537 @@
+{
+    "apiVersion": "v1",
+    "items": [
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "cloud.google.com/neg": "{\"ingress\":true}",
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"kubernetes.io/change-cause\":\"kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true\"},\"name\":\"adservice\",\"namespace\":\"boutique\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":9555,\"targetPort\":9555}],\"selector\":{\"app\":\"adservice\"},\"type\":\"ClusterIP\"}}\n",
+                    "kubernetes.io/change-cause": "kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true"
+                },
+                "creationTimestamp": "2022-08-22T22:49:23Z",
+                "name": "adservice",
+                "namespace": "boutique",
+                "resourceVersion": "19933",
+                "uid": "d9af9b42-dec3-45a6-9fed-d740179d7d31"
+            },
+            "spec": {
+                "clusterIP": "10.40.105.2",
+                "clusterIPs": [
+                    "10.40.105.2"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 9555,
+                        "protocol": "TCP",
+                        "targetPort": 9555
+                    }
+                ],
+                "selector": {
+                    "app": "adservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "cloud.google.com/neg": "{\"ingress\":true}",
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"kubernetes.io/change-cause\":\"kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true\"},\"name\":\"cartservice\",\"namespace\":\"boutique\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":7070,\"targetPort\":7070}],\"selector\":{\"app\":\"cartservice\"},\"type\":\"ClusterIP\"}}\n",
+                    "kubernetes.io/change-cause": "kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true"
+                },
+                "creationTimestamp": "2022-08-22T22:49:21Z",
+                "name": "cartservice",
+                "namespace": "boutique",
+                "resourceVersion": "19934",
+                "uid": "7cad1cdc-8471-49ad-acc1-e97070534fef"
+            },
+            "spec": {
+                "clusterIP": "10.40.100.79",
+                "clusterIPs": [
+                    "10.40.100.79"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 7070,
+                        "protocol": "TCP",
+                        "targetPort": 7070
+                    }
+                ],
+                "selector": {
+                    "app": "cartservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "cloud.google.com/neg": "{\"ingress\":true}",
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"kubernetes.io/change-cause\":\"kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true\"},\"name\":\"checkoutservice\",\"namespace\":\"boutique\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":5050,\"targetPort\":5050}],\"selector\":{\"app\":\"checkoutservice\"},\"type\":\"ClusterIP\"}}\n",
+                    "kubernetes.io/change-cause": "kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true"
+                },
+                "creationTimestamp": "2022-08-22T22:49:17Z",
+                "name": "checkoutservice",
+                "namespace": "boutique",
+                "resourceVersion": "19935",
+                "uid": "230239cb-12a5-43c3-8d61-d2021cadb284"
+            },
+            "spec": {
+                "clusterIP": "10.40.101.126",
+                "clusterIPs": [
+                    "10.40.101.126"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 5050,
+                        "protocol": "TCP",
+                        "targetPort": 5050
+                    }
+                ],
+                "selector": {
+                    "app": "checkoutservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "cloud.google.com/neg": "{\"ingress\":true}",
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"kubernetes.io/change-cause\":\"kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true\"},\"name\":\"currencyservice\",\"namespace\":\"boutique\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":7000,\"targetPort\":7000}],\"selector\":{\"app\":\"currencyservice\"},\"type\":\"ClusterIP\"}}\n",
+                    "kubernetes.io/change-cause": "kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true"
+                },
+                "creationTimestamp": "2022-08-22T22:49:21Z",
+                "name": "currencyservice",
+                "namespace": "boutique",
+                "resourceVersion": "19937",
+                "uid": "0bb1af73-c69f-41ae-adc9-9633d178ec32"
+            },
+            "spec": {
+                "clusterIP": "10.40.104.68",
+                "clusterIPs": [
+                    "10.40.104.68"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 7000,
+                        "protocol": "TCP",
+                        "targetPort": 7000
+                    }
+                ],
+                "selector": {
+                    "app": "currencyservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "cloud.google.com/neg": "{\"ingress\":true}",
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"kubernetes.io/change-cause\":\"kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true\"},\"name\":\"emailservice\",\"namespace\":\"boutique\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":5000,\"targetPort\":8080}],\"selector\":{\"app\":\"emailservice\"},\"type\":\"ClusterIP\"}}\n",
+                    "kubernetes.io/change-cause": "kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true"
+                },
+                "creationTimestamp": "2022-08-22T22:49:17Z",
+                "name": "emailservice",
+                "namespace": "boutique",
+                "resourceVersion": "19939",
+                "uid": "67c6f563-c9a3-4dbd-9108-221edfbc06b8"
+            },
+            "spec": {
+                "clusterIP": "10.40.97.104",
+                "clusterIPs": [
+                    "10.40.97.104"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 5000,
+                        "protocol": "TCP",
+                        "targetPort": 8080
+                    }
+                ],
+                "selector": {
+                    "app": "emailservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "cloud.google.com/neg": "{\"ingress\":true}",
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"kubernetes.io/change-cause\":\"kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true\"},\"name\":\"frontend\",\"namespace\":\"boutique\"},\"spec\":{\"ports\":[{\"name\":\"http\",\"port\":80,\"targetPort\":8080}],\"selector\":{\"app\":\"frontend\"},\"type\":\"ClusterIP\"}}\n",
+                    "kubernetes.io/change-cause": "kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true"
+                },
+                "creationTimestamp": "2022-08-22T22:49:18Z",
+                "name": "frontend",
+                "namespace": "boutique",
+                "resourceVersion": "19940",
+                "uid": "faef09ca-62a0-4025-be5f-d1e08cd75e7a"
+            },
+            "spec": {
+                "clusterIP": "10.40.97.189",
+                "clusterIPs": [
+                    "10.40.97.189"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "http",
+                        "port": 80,
+                        "protocol": "TCP",
+                        "targetPort": 8080
+                    }
+                ],
+                "selector": {
+                    "app": "frontend"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "cloud.google.com/neg": "{\"ingress\":true}",
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"kubernetes.io/change-cause\":\"kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true\"},\"name\":\"frontend-external\",\"namespace\":\"boutique\"},\"spec\":{\"ports\":[{\"name\":\"http\",\"port\":80,\"targetPort\":8080}],\"selector\":{\"app\":\"frontend\"},\"type\":\"LoadBalancer\"}}\n",
+                    "kubernetes.io/change-cause": "kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true"
+                },
+                "creationTimestamp": "2022-08-22T22:49:19Z",
+                "finalizers": [
+                    "service.kubernetes.io/load-balancer-cleanup"
+                ],
+                "name": "frontend-external",
+                "namespace": "boutique",
+                "resourceVersion": "19941",
+                "uid": "918e301a-e280-4f8d-8f22-e6b5dbae0503"
+            },
+            "spec": {
+                "allocateLoadBalancerNodePorts": true,
+                "clusterIP": "10.40.111.49",
+                "clusterIPs": [
+                    "10.40.111.49"
+                ],
+                "externalTrafficPolicy": "Cluster",
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "http",
+                        "nodePort": 30401,
+                        "port": 80,
+                        "protocol": "TCP",
+                        "targetPort": 8080
+                    }
+                ],
+                "selector": {
+                    "app": "frontend"
+                },
+                "sessionAffinity": "None",
+                "type": "LoadBalancer"
+            },
+            "status": {
+                "loadBalancer": {
+                    "ingress": [
+                        {
+                            "ip": "35.223.153.116"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "cloud.google.com/neg": "{\"ingress\":true}",
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"kubernetes.io/change-cause\":\"kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true\"},\"name\":\"paymentservice\",\"namespace\":\"boutique\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":50051,\"targetPort\":50051}],\"selector\":{\"app\":\"paymentservice\"},\"type\":\"ClusterIP\"}}\n",
+                    "kubernetes.io/change-cause": "kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true"
+                },
+                "creationTimestamp": "2022-08-22T22:49:20Z",
+                "name": "paymentservice",
+                "namespace": "boutique",
+                "resourceVersion": "19942",
+                "uid": "83c662e3-5090-4c45-abef-edcd425ea513"
+            },
+            "spec": {
+                "clusterIP": "10.40.100.20",
+                "clusterIPs": [
+                    "10.40.100.20"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 50051,
+                        "protocol": "TCP",
+                        "targetPort": 50051
+                    }
+                ],
+                "selector": {
+                    "app": "paymentservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "cloud.google.com/neg": "{\"ingress\":true}",
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"kubernetes.io/change-cause\":\"kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true\"},\"name\":\"productcatalogservice\",\"namespace\":\"boutique\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":3550,\"targetPort\":3550}],\"selector\":{\"app\":\"productcatalogservice\"},\"type\":\"ClusterIP\"}}\n",
+                    "kubernetes.io/change-cause": "kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true"
+                },
+                "creationTimestamp": "2022-08-22T22:49:20Z",
+                "name": "productcatalogservice",
+                "namespace": "boutique",
+                "resourceVersion": "19943",
+                "uid": "12d1b6ab-8bd5-4c7b-9c91-3c5f5f875f3f"
+            },
+            "spec": {
+                "clusterIP": "10.40.101.59",
+                "clusterIPs": [
+                    "10.40.101.59"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 3550,
+                        "protocol": "TCP",
+                        "targetPort": 3550
+                    }
+                ],
+                "selector": {
+                    "app": "productcatalogservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "cloud.google.com/neg": "{\"ingress\":true}",
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"kubernetes.io/change-cause\":\"kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true\"},\"name\":\"recommendationservice\",\"namespace\":\"boutique\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":8080,\"targetPort\":8080}],\"selector\":{\"app\":\"recommendationservice\"},\"type\":\"ClusterIP\"}}\n",
+                    "kubernetes.io/change-cause": "kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true"
+                },
+                "creationTimestamp": "2022-08-22T22:49:18Z",
+                "name": "recommendationservice",
+                "namespace": "boutique",
+                "resourceVersion": "19944",
+                "uid": "36bd000b-60a3-488a-b3b6-739ac9303a37"
+            },
+            "spec": {
+                "clusterIP": "10.40.100.95",
+                "clusterIPs": [
+                    "10.40.100.95"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 8080,
+                        "protocol": "TCP",
+                        "targetPort": 8080
+                    }
+                ],
+                "selector": {
+                    "app": "recommendationservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "cloud.google.com/neg": "{\"ingress\":true}",
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"kubernetes.io/change-cause\":\"kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true\"},\"name\":\"redis-cart\",\"namespace\":\"boutique\"},\"spec\":{\"ports\":[{\"name\":\"tls-redis\",\"port\":6379,\"targetPort\":6379}],\"selector\":{\"app\":\"redis-cart\"},\"type\":\"ClusterIP\"}}\n",
+                    "kubernetes.io/change-cause": "kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true"
+                },
+                "creationTimestamp": "2022-08-22T22:49:22Z",
+                "name": "redis-cart",
+                "namespace": "boutique",
+                "resourceVersion": "19945",
+                "uid": "50328368-6e1b-4987-a61f-286ef103a0ab"
+            },
+            "spec": {
+                "clusterIP": "10.40.100.114",
+                "clusterIPs": [
+                    "10.40.100.114"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "tls-redis",
+                        "port": 6379,
+                        "protocol": "TCP",
+                        "targetPort": 6379
+                    }
+                ],
+                "selector": {
+                    "app": "redis-cart"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        },
+        {
+            "apiVersion": "v1",
+            "kind": "Service",
+            "metadata": {
+                "annotations": {
+                    "cloud.google.com/neg": "{\"ingress\":true}",
+                    "kubectl.kubernetes.io/last-applied-configuration": "{\"apiVersion\":\"v1\",\"kind\":\"Service\",\"metadata\":{\"annotations\":{\"kubernetes.io/change-cause\":\"kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true\"},\"name\":\"shippingservice\",\"namespace\":\"boutique\"},\"spec\":{\"ports\":[{\"name\":\"grpc\",\"port\":50051,\"targetPort\":50051}],\"selector\":{\"app\":\"shippingservice\"},\"type\":\"ClusterIP\"}}\n",
+                    "kubernetes.io/change-cause": "kubectl apply --kubeconfig=config --filename=manifests.yaml --record=true"
+                },
+                "creationTimestamp": "2022-08-22T22:49:22Z",
+                "name": "shippingservice",
+                "namespace": "boutique",
+                "resourceVersion": "19946",
+                "uid": "797872bf-b6fa-4dc4-9f68-892293405591"
+            },
+            "spec": {
+                "clusterIP": "10.40.97.185",
+                "clusterIPs": [
+                    "10.40.97.185"
+                ],
+                "internalTrafficPolicy": "Cluster",
+                "ipFamilies": [
+                    "IPv4"
+                ],
+                "ipFamilyPolicy": "SingleStack",
+                "ports": [
+                    {
+                        "name": "grpc",
+                        "port": 50051,
+                        "protocol": "TCP",
+                        "targetPort": 50051
+                    }
+                ],
+                "selector": {
+                    "app": "shippingservice"
+                },
+                "sessionAffinity": "None",
+                "type": "ClusterIP"
+            },
+            "status": {
+                "loadBalancer": {}
+            }
+        }
+    ],
+    "kind": "List",
+    "metadata": {
+        "resourceVersion": ""
+    }
+}
