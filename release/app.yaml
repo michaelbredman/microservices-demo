@@ -232,7 +232,8 @@ spec:
       serviceAccountName: default
       containers:
         - name: server
-          image: aady12/boutique-frontend:ci
+          #image: aady12/boutique-frontend:ci
+          image: docker.io/mredman/chaosdemo:latest
           ports:
           - containerPort: 8080
           readinessProbe:
