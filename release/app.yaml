@@ -453,7 +453,8 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: gcr.io/google-samples/microservices-demo/cartservice:v0.3.8
+        #image: gcr.io/google-samples/microservices-demo/cartservice:v0.3.8
+        image: docker.io/ksatchit/cartservice:cra-0.1.0
         #image: mredman/chaosdemo:latest
         ports:
         - containerPort: 7070
