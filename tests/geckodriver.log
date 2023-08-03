@@ -1,0 +1,224 @@
+1691074127552	geckodriver	INFO	Listening on 127.0.0.1:49264
+1691074127777	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rs/qkt42ty51l134_mghjdptxjm0000gn/T/rust_mozprofilePLaHrR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691074128388	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1691074128713	Marionette	INFO	Listening on port 49286
+WebDriver BiDi listening on ws://127.0.0.1:49265
+Read port: 49286
+1691074128871	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:49265/devtools/browser/58a3d655-889b-40d2-9ea0-722877fb5b50
+JavaScript error: resource:///actors/FormValidationChild.sys.mjs, line 178: TypeError: this._element is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.python.org."
+1691074131774	Marionette	INFO	Stopped listening on port 49286
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1691074563854	geckodriver	INFO	Listening on 127.0.0.1:49642
+1691074564366	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rs/qkt42ty51l134_mghjdptxjm0000gn/T/rust_mozprofileFhOYs6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691074564944	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1691074565364	Marionette	INFO	Listening on port 49650
+WebDriver BiDi listening on ws://127.0.0.1:49643
+Read port: 49650
+1691074565604	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:49643/devtools/browser/c8844558-5a85-473b-b4fd-8de487d73f75
+JavaScript error: resource:///actors/FormValidationChild.sys.mjs, line 178: TypeError: this._element is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.python.org."
+1691074567960	Marionette	INFO	Stopped listening on port 49650
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1691074614736	geckodriver	INFO	Listening on 127.0.0.1:49724
+1691074615245	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rs/qkt42ty51l134_mghjdptxjm0000gn/T/rust_mozprofileAVbnSj"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691074615697	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1691074616000	Marionette	INFO	Listening on port 49735
+Read port: 49735
+WebDriver BiDi listening on ws://127.0.0.1:49725
+1691074616259	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:49725/devtools/browser/d80fea1d-4d68-49f6-afb4-ee8afb3cb075
+JavaScript error: resource:///actors/FormValidationChild.sys.mjs, line 178: TypeError: this._element is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.python.org."
+1691074618187	Marionette	INFO	Stopped listening on port 49735
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1691074702118	geckodriver	INFO	Listening on 127.0.0.1:49857
+1691074702626	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rs/qkt42ty51l134_mghjdptxjm0000gn/T/rust_mozprofileorrOAk"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691074703083	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1691074703395	Marionette	INFO	Listening on port 49865
+Read port: 49865
+WebDriver BiDi listening on ws://127.0.0.1:49858
+1691074703638	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:49858/devtools/browser/cda6efe8-f1d3-442f-bb94-e96c3508bfb9
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+1691074705689	Marionette	INFO	Stopped listening on port 49865
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1691074724892	geckodriver	INFO	Listening on 127.0.0.1:49919
+1691074724908	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rs/qkt42ty51l134_mghjdptxjm0000gn/T/rust_mozprofileNLhHm9"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691074725297	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1691074725726	Marionette	INFO	Listening on port 49926
+Read port: 49926
+WebDriver BiDi listening on ws://127.0.0.1:49920
+1691074726077	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:49920/devtools/browser/679acc8f-d79b-41fd-92ea-d4c36330bf09
+1691074727062	Marionette	INFO	Stopped listening on port 49926
+console.error: services.settings: 
+  main/quicksuggest Signature failed  TypeError: NetworkError: Network request failed
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 111))
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 111))
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 111))
+1691074760022	geckodriver	INFO	Listening on 127.0.0.1:49974
+1691074760032	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rs/qkt42ty51l134_mghjdptxjm0000gn/T/rust_mozprofilecGJqlK"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691074760526	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1691074760804	Marionette	INFO	Listening on port 49980
+Read port: 49980
+WebDriver BiDi listening on ws://127.0.0.1:49975
+1691074761122	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:49975/devtools/browser/b785bf67-1d08-42f2-abd0-be10be4e87a4
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+1691074808343	geckodriver	INFO	Listening on 127.0.0.1:50056
+1691074808853	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rs/qkt42ty51l134_mghjdptxjm0000gn/T/rust_mozprofilej6m7NU"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691074809230	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1691074809469	Marionette	INFO	Listening on port 50065
+Read port: 50065
+WebDriver BiDi listening on ws://127.0.0.1:50057
+1691074809822	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:50057/devtools/browser/89ee8918-5acf-4cf3-a224-dc63ab931f0b
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+1691074821815	geckodriver	INFO	Listening on 127.0.0.1:50132
+1691074821827	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rs/qkt42ty51l134_mghjdptxjm0000gn/T/rust_mozprofilepByQJF"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691074822175	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1691074822515	Marionette	INFO	Listening on port 50144
+Read port: 50144
+WebDriver BiDi listening on ws://127.0.0.1:50133
+1691074822864	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:50133/devtools/browser/89b48a74-fec0-4ad4-979d-02aebcd1d050
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+1691076007287	geckodriver	INFO	Listening on 127.0.0.1:51428
+1691076007787	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rs/qkt42ty51l134_mghjdptxjm0000gn/T/rust_mozprofile3D2rS7"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691076008147	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1691076008414	Marionette	INFO	Listening on port 51436
+Read port: 51436
+WebDriver BiDi listening on ws://127.0.0.1:51429
+1691076008628	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:51429/devtools/browser/4134604e-49e5-4f48-a4a0-ea02258b19ed
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+1691076033008	geckodriver	INFO	Listening on 127.0.0.1:51507
+1691076033530	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rs/qkt42ty51l134_mghjdptxjm0000gn/T/rust_mozprofileaLop2E"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691076033862	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1691076034205	Marionette	INFO	Listening on port 51516
+Read port: 51516
+WebDriver BiDi listening on ws://127.0.0.1:51508
+1691076034554	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:51508/devtools/browser/85b28454-79a5-422c-a91b-f9477608ea3c
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+1691076054923	geckodriver	INFO	Listening on 127.0.0.1:51601
+1691076055437	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rs/qkt42ty51l134_mghjdptxjm0000gn/T/rust_mozprofileTtpSxt"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691076055801	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1691076056101	Marionette	INFO	Listening on port 51611
+Read port: 51611
+WebDriver BiDi listening on ws://127.0.0.1:51602
+1691076056407	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:51602/devtools/browser/407621f7-91c5-4334-9349-9f1693721347
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+1691076058648	Marionette	INFO	Stopped listening on port 51611
+JavaScript error: resource://services-settings/Utils.sys.mjs, line 229: TypeError: NetworkError: Network request failed
+1691076176928	geckodriver	INFO	Listening on 127.0.0.1:51735
+1691076177453	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rs/qkt42ty51l134_mghjdptxjm0000gn/T/rust_mozprofilecCVaoA"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691076177813	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1691076178168	Marionette	INFO	Listening on port 51743
+Read port: 51743
+WebDriver BiDi listening on ws://127.0.0.1:51736
+1691076178539	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:51736/devtools/browser/f76c945f-a5a6-46ce-84f9-1ba6f4751f2f
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+1691076205123	geckodriver	INFO	Listening on 127.0.0.1:51808
+1691076205130	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rs/qkt42ty51l134_mghjdptxjm0000gn/T/rust_mozprofileLwvRHl"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691076205452	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1691076205754	Marionette	INFO	Listening on port 51815
+Read port: 51815
+WebDriver BiDi listening on ws://127.0.0.1:51809
+1691076206156	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:51809/devtools/browser/00dff370-cad5-4c2d-a8c1-09a233551ef7
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+1691076267527	geckodriver	INFO	Listening on 127.0.0.1:51914
+1691076268043	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/rs/qkt42ty51l134_mghjdptxjm0000gn/T/rust_mozprofilepOpu24"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1691076268392	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+1691076268674	Marionette	INFO	Listening on port 51923
+Read port: 51923
+WebDriver BiDi listening on ws://127.0.0.1:51915
+1691076269044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+DevTools listening on ws://127.0.0.1:51915/devtools/browser/c9fe5a8b-7ed6-40f2-a0d4-24a25e992bd4
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+JavaScript error: https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js, line 6: TypeError: i is undefined
+1691076271380	Marionette	INFO	Stopped listening on port 51923
+JavaScript error: resource://services-settings/RemoteSettingsWorker.sys.mjs, line 136: Error: Shutdown, aborting read-only worker requests.
