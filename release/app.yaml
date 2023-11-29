@@ -233,7 +233,7 @@ spec:
       containers:
         - name: server
           #image: aady12/boutique-frontend:ci
-          image: {{.Values.image}}
+          image: {{ .Values.image }}
           ports:
           - containerPort: 8080
           readinessProbe:
