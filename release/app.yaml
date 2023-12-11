@@ -233,6 +233,7 @@ spec:
       containers:
         - name: server
           #image: aady12/boutique-frontend:ci
+          #adding the Harness stuff
           image: {{ .Values.image }}
           ports:
           - containerPort: 8080
